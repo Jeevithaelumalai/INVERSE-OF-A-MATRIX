@@ -1,4 +1,5 @@
 # INVERSE-OF-A-MATRIX
+
 ## Aim:
 
 To write a python program to find the inverse of a matrix
@@ -17,7 +18,7 @@ To write a python program to find the inverse of a matrix
 
 
 ## Program:
-''' python
+``` python
 #Program to find the inverse of a matrix.
 #Developed by: Jeevitha E
 #RegisterNumber:22009049
@@ -25,8 +26,10 @@ import numpy as np
 A=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
 B=np.linalg.inv(A)
 print(B)
+```
 ## Output:
 ![](./inverse.png)
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
